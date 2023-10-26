@@ -6,24 +6,46 @@
   right: 0;
   bottom: 0;
   min-width: 100vw;
-  background-color: transparent; /* You can set the background color according to your preference */
-  color: #000000; /* Text color for the navbar */
-  height: 50px; /* Set the desired height of the navbar */
+  background-color: transparent;
+  color: #000000;
+  height: 50px;
 }
 
 .navbar {
   margin: 4px 1rem 4px 1rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .heading {
-  color: black;
-  font-size: 1.2em;
+  color: #fff;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
 .flex {
-  gap: 1rem;
+  color: #fff;
+
   display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 1.6rem ;
+  
+}
+
+.ham-menu{
+  margin:0 1.6rem;
+
+}
+
+.nav-menu {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link{
+  color: #fff;
 }

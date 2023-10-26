@@ -4,12 +4,12 @@ import  "../Styles/Navbar.css";
 function Navbar() {
   return (
     <div className="navbar navbar-expand-lg navbar-light nav">
-      <div className="container-fluid navbar">
+      <div className="container-fluid ">
         <Link className="navbar-brand" to={"/"}>
           <h1 className="heading">Drone-X</h1>
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler ham-menu"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -20,7 +20,7 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse flex" id="navbarNav">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav nav-menu">
             <li className="nav-item">
               <Link className="nav-link" to={"/"}>
                 Home

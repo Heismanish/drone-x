@@ -1,6 +1,6 @@
 {
   "slides": [
-    { "src": "../../public/Drone1.jpg", "alt": "Drone 1 Image" },
-    { "src": "../../public/Drone2.jpg", "alt": "Drone 2 Image" }
+    { "src": "../../public/static/Drone1.jpg", "alt": "Drone 1 Image" },
+    { "src": "../../public/static/Drone2.jpg", "alt": "Drone 2 Image" }
   ]
 }

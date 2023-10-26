@@ -1,0 +1,29 @@
+.nav {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  background-color: transparent; /* You can set the background color according to your preference */
+  color: #000000; /* Text color for the navbar */
+  height: 50px; /* Set the desired height of the navbar */
+}
+
+.navbar {
+  margin: 4px 1rem 4px 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.flex {
+  gap: 1rem;
+  display: flex;
+}

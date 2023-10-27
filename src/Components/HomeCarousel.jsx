@@ -26,6 +26,7 @@ return (
       <div className="home-head">
         <h1 >Welcome to the new Era</h1>
         <p>We create drone for this new era</p>
+       <button className="learnBtn">Learn More</button>
       </div>
       <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/>
       {slides.map((slide, index) => (

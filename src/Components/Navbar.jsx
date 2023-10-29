@@ -1,13 +1,14 @@
-import { Link } from "react-router-dom";
-import  "../Styles/Navbar.css";
-
+import "../Styles/Navbar.css";
+import { Link } from "react-scroll";
 function Navbar() {
   return (
     <div className="navbar navbar-expand-lg navbar-light nav">
       <div className="container-fluid ">
-        <Link className="navbar-brand" to={"/"}>
+        {/* <Link className="navbar-brand" to={"/"}></Link> */}
+        <Link to="/" spy={true} smooth={true} className="navbar-brand">
           <h1 className="heading">Drone-X</h1>
         </Link>
+
         <button
           className="navbar-toggler ham-menu"
           type="button"
@@ -22,22 +23,32 @@ function Navbar() {
         <div className="collapse navbar-collapse flex" id="navbarNav">
           <ul className="navbar-nav nav-menu">
             <li className="nav-item">
-              <Link className="nav-link" to={"/"}>
+              <Link className="nav-link" smooth={true} to={"/"}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/career"}>
-                Career
+              <Link
+                className="nav-link"
+                smooth={true}
+                duration={500}
+                to="about"
+              >
+                About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/services"}>
+              <Link className="nav-link" smooth={true} to={"media"}>
+                Media
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" smooth={true} to={"/services"}>
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={"/contacts"}>
+              <Link className="nav-link" smooth={true} to={"contact"}>
                 Contacts
               </Link>
             </li>
@@ -49,8 +60,6 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
 
 // function Navbar() {
 //   return (

@@ -18,10 +18,12 @@
   justify-content: space-between;
 }
 
+
 .heading {
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .flex {
@@ -48,4 +50,6 @@
 
 .nav-link{
   color: #fff;
+  cursor: pointer;
+
 }

@@ -113,7 +113,14 @@
 }
 
 .learnBtn{
+  color:#fff;
   padding: 1em 1.4em;
   border: 2px white solid ;
   background: transparent;
+}
+
+.learnBtn:hover{
+  background-color: white;
+  color: #111;
+  transition: all 0.3s ease-in;
 }

@@ -4,6 +4,7 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import { AiFillLinkedin } from 'react-icons/ai';
 import {FiMail} from "react-icons/fi"
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 function HomeCarousel() {
   const [currSlide, setCurrSlide] = useState(0);
 
@@ -26,7 +27,7 @@ return (
       <div className="home-head">
         <h1 >Welcome to the new Era</h1>
         <p>We create drone for this new era</p>
-       <button className="learnBtn">Learn More</button>
+        <Link to="/about"> <button className="learnBtn">Learn More</button></Link>
       </div>
       <BsArrowLeftCircleFill className="arrow arrow-left" onClick={prevSlide}/>
       {slides.map((slide, index) => (
